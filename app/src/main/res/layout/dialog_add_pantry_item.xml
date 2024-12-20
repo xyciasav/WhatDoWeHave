@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title: Item Name -->
+    <TextView
+        android:id="@+id/tv_item_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Name:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name" />
+
+    <!-- Title: Quantity -->
+    <TextView
+        android:id="@+id/tv_item_quantity_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="number" />
+
+    <!-- Title: Low Threshold -->
+    <TextView
+        android:id="@+id/tv_item_threshold_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Low Threshold:"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_item_threshold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Low Threshold"
+        android:inputType="number" />
+
+    <!-- Update Button -->
+    <Button
+        android:id="@+id/btn_add_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Update" />
+</LinearLayout>

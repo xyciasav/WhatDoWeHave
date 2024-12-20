@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home"
+    app:startDestination="@id/navigation_pantry">
+
+    <fragment
+        android:id="@+id/navigation_pantry"
+        android:name="com.example.whatdowehave.ui.pantry.PantryFragment"
+        android:label="Pantry"
+        tools:layout="@layout/fragment_pantry" />
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.whatdowehave.ui.list.ShoppingListFragment"
+        android:label="Shopping List"
+        tools:layout="@layout/fragment_list" />
+
+</navigation>
